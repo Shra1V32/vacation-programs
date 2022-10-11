@@ -24,5 +24,18 @@ def isMagicNumber(num):
     else:
         print("A Magic number")
 
+def another(num):
+    num = str(num)
+    req = num
+    while int(req)>10:
+        sum = 0
+        for j in str(req):
+            sum = sum+int(j)
+        req = sum
+    if int(req) == 10 or 1:
+        return 1
+    else:
+        return req
 
-isMagicNumber(int(input()))
+
+print(another(int(input())))

@@ -10,4 +10,4 @@ def unique_digits(n):
             #continue
     if "".join(k) == n:
         print("Unique Number")
-unique_digits(12364)
+unique_digits(123)
